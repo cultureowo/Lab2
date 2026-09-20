@@ -1,0 +1,12 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Running pre-commit checks..."
+
+echo "1. Running TypeScript check..."
+npm run lint
+
+echo "2. Running Unit Tests (Mocha)..."
+npm run test
+
+echo "All pre-commit checks passed successfully!"

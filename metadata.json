@@ -1,0 +1,6 @@
+{
+  "name": "Система Управління Бібліотекою",
+  "description": "Клієнтський застосунок для управління бібліотекою (облік книг та користувачів, позичання та повернення) на TypeScript.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
